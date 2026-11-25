@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Solda Master",
+    "slug": "solda-master",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "scheme": "soldamaster",
+    "ios": {
+      "bundleIdentifier": "com.soldamaster.app",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.soldamaster.app",
+      "softwareKeyboardLayoutMode": "resize"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
