@@ -66,7 +66,7 @@ SoldaMaster_appRN/
 ├── tailwind.config.js            # Configuración de NativeWind / Tailwind
 ├── global.css                    # Estilos globales
 ├── .env.example                  # Plantilla de variables de entorno
-├── BACKEND_API_GUIDE.md          # Fuente de verdad de endpoints y DTOs
+├── BACKEND_API_GUIDE.md          # Guía de endpoints y DTOs del backend
 └── MEMORIA.md                    # Registro de fases y decisiones del proyecto
 ```
 
@@ -154,12 +154,5 @@ SoldaMaster_appRN/
 
 ## ⚠️ Notas sobre el backend
 
-- La guía `BACKEND_API_GUIDE.md` es la **fuente de verdad**: no se inventan endpoints ni reglas de negocio.
 - Existen productos creados únicamente vía `POST /inventario/producto` (no hay `POST /productos`).
 - Según la base de datos de pruebas, algunos catálogos (estados de orden/cuota y métodos de pago) deben estar sembrados en el backend para poder registrar órdenes de compra, ventas a crédito y pagos. Si faltan, la app lo indica en el formulario en lugar de enviar identificadores inventados.
-
----
-
-## 👥 Proyecto
-
-Desarrollado por el **Grupo 03** del curso Desarrollo de Aplicaciones Móviles. Versión inicial: `app_react_v1`.
